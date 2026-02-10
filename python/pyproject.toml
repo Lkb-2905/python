@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ip-geolocation-app"
+version = "0.1.0"
+description = "IP Geolocation Application using FastAPI and NiceGUI"
+authors = ["KAMENI TCHOUATCHEU GAETAN BRUNEL <gaetanbrunel.kamenitchouatcheu@et.esiea.fr>"]
+readme = "README.md"
+packages = [{include = "webserv"}, {include = "client"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+nicegui = "^1.4.0"
+uvicorn = "^0.22.0"
+requests = "^2.31.0"
+pydantic-settings = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
