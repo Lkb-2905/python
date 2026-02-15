@@ -7,7 +7,7 @@
 >
 > **Version:** 1.0.0 Stable  
 > **Date de Release:** 15 Février 2026  
-> **Auteur:** KAMENI TCHOUATCHEU GAETAN BRUNEL (Ingénieur Logiciel)  
+> **Auteur:** @KAMENI TCHOUATCHEU GAETAN BRUNEL (Ingénieur Logiciel)  
 > **Contact:** [gaetanbrunel.kamenitchouatcheu@et.esiea.fr](mailto:gaetanbrunel.kamenitchouatcheu@et.esiea.fr)
 
 ---
@@ -99,8 +99,8 @@ Choix techniques basés sur la performance et la maintenabilité.
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-username/geoloc-ip-service.git
-cd geoloc-ip-service
+git clone git@github.com:Lkb-2905/python.git
+cd python
 
 # 2. Installer les dépendances via Poetry
 poetry install
