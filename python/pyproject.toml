@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ip-geolocation-app"
+name = "geoip-vision"
 version = "0.1.0"
 description = "IP Geolocation Application using FastAPI and NiceGUI"
 authors = ["KAMENI TCHOUATCHEU GAETAN BRUNEL <gaetanbrunel.kamenitchouatcheu@et.esiea.fr>"]

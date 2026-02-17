@@ -70,10 +70,10 @@ class GeolocateClient:
 client = GeolocateClient("127.0.0.1", 8000)
 
 # Create the UI
-ui.page_title("IP Geolocation Tool")
+ui.page_title("GeoIP-Vision")
 
 with ui.card().classes("w-96 mx-auto mt-8"):
-    ui.label("IP Geolocation Service").classes("text-2xl font-bold")
+    ui.label("GeoIP-Vision").classes("text-2xl font-bold")
     ui.label("Locate any IP address on a map").classes("text-gray-600 mb-4")
     
     # Input field for IP address

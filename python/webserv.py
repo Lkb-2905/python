@@ -8,7 +8,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     """Configuration model for the application using Pydantic Settings"""
-    app_name: str = "IP Geolocation API"
+    app_name: str = "GeoIP-Vision API"
     circl_api_url: str = "https://ip.circl.lu"
     debug: bool = False
 
@@ -21,7 +21,7 @@ def get_settings():
     return Settings()
 
 
-app = FastAPI(title="IP Geolocation Service")
+app = FastAPI(title="GeoIP-Vision API")
 
 # Add CORS middleware to allow requests from the client
 app.add_middleware(
